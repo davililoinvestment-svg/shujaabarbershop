@@ -1,54 +1,55 @@
-import svcCut from "@/assets/svc-cut.jpg";
-import svcBeard from "@/assets/svc-beard.jpg";
-import svcMassage from "@/assets/svc-massage.jpg";
-import svcFacial from "@/assets/svc-facial.jpg";
-import svcDye from "@/assets/svc-dye.jpg";
-import svcCurls from "@/assets/svc-curls.jpg";
+import svcCut from "@/assets/svc-cut.jpeg.asset.json";
+import svcBeard from "@/assets/svc-beard.jpeg.asset.json";
+import svcMassage from "@/assets/svc-massage.jpg.asset.json";
+import svcFacial from "@/assets/svc-facial.jpeg.asset.json";
+import svcDye from "@/assets/svc-dye.jpeg.asset.json";
+import svcCurls from "@/assets/svc-curls.jpeg.asset.json";
 
 const services = [
   {
     title: "Precision Cut",
     price: "Sh. 350",
     copy: "Clean, sharp low-taper fade, shaped to your face and finished with a razor line-up.",
-    img: svcCut,
-    alt: "Barber giving a client a precision low-taper fade haircut",
+    img: svcCut.url,
+    alt: "Sharp taper fade cut on a client at the barbershop",
   },
   {
     title: "Beard Trim",
     price: "Sh. 150",
     copy: "Beard shaping and edge-up for a crisp, defined line from cheek to chin.",
-    img: svcBeard,
-    alt: "Barber shaping a client's beard with a trimmer",
+    img: svcBeard.url,
+    alt: "Close-up of a full beard shaped with a clean edge-up",
   },
   {
     title: "After-Shave Massage",
     price: "Free",
     copy: "A 5-minute head and shoulder massage to close out the session, on the house.",
-    img: svcMassage,
-    alt: "Barber finishing a session with a hot towel and head massage",
+    img: svcMassage.url,
+    alt: "Client receiving a hot towel and head massage after a cut",
   },
   {
     title: "Full Facial",
     price: "Sh. 700",
     copy: "Deep cleanse, scrub and steam finish that leaves skin fresh and even.",
-    img: svcFacial,
-    alt: "Barber performing a steam facial treatment on a client",
+    img: svcFacial.url,
+    alt: "Client having a deep cleanse facial treatment applied",
   },
   {
     title: "Dye & Colour",
     price: "Sh. 300",
     copy: "Full colour or short-hair dye work, matched and blended to your style.",
-    img: svcDye,
-    alt: "Barber applying hair colour to a client's hair",
+    img: svcDye.url,
+    alt: "Client with a bold coloured afro and clean fade",
   },
   {
     title: "Curling",
     price: "Sh. 350",
     copy: "Defined curl treatment for texture and hold that lasts through the week.",
-    img: svcCurls,
-    alt: "Close-up of freshly defined curls",
+    img: svcCurls.url,
+    alt: "Client with defined curls and a faded taper",
   },
 ];
+
 
 export function Services() {
   return (
