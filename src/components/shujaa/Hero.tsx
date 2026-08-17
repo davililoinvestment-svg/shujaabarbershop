@@ -1,6 +1,7 @@
 import { ChevronDown, MapPin } from "lucide-react";
 import heroImg from "@/assets/hero-fade.jpg";
-import logo from "@/assets/shujaa-logo.png";
+import logoAsset from "@/assets/shujaa-logo.jpg.asset.json";
+const logo = logoAsset.url;
 
 export function Hero() {
   return (
@@ -22,8 +23,8 @@ export function Hero() {
         <img
           src={logo}
           alt=""
-          width={816}
-          height={816}
+          width={711}
+          height={764}
           className="h-16 w-16 object-contain sm:h-20 sm:w-20"
         />
 

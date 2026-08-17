@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/shujaa-logo.png";
+import logoAsset from "@/assets/shujaa-logo.jpg.asset.json";
+const logo = logoAsset.url;
 
 const nav = [
   { label: "Services", href: "#services" },
@@ -28,8 +29,8 @@ export function Header() {
           <img
             src={logo}
             alt="SHUJAA Barbershop logo"
-            width={816}
-            height={816}
+            width={711}
+            height={764}
             className="h-9 w-9 object-contain"
           />
           <span className="leading-none">

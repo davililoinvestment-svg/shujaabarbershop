@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Mail, MapPin, Music2, Phone } from "lucide-react";
-import logo from "@/assets/shujaa-logo.png";
+import logoAsset from "@/assets/shujaa-logo.jpg.asset.json";
+const logo = logoAsset.url;
 
 // EDITABLE: replace the email and social links below with the shop's real accounts.
 const EMAIL = "hello@shujaabarbershop.co.ke";
@@ -18,8 +19,8 @@ export function BookFooter() {
             src={logo}
             alt=""
             loading="lazy"
-            width={816}
-            height={816}
+            width={711}
+            height={764}
             className="mx-auto h-12 w-12 object-contain"
           />
           <h2 className="display mt-6 text-6xl sm:text-7xl">
