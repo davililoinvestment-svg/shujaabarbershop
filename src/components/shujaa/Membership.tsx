@@ -17,7 +17,7 @@ const plans = [
 
 export function Membership() {
   return (
-    <section id="membership" className="mx-auto max-w-6xl px-5 py-20 sm:px-6 sm:py-28">
+    <section id="membership" className="scroll-mt-20 mx-auto max-w-6xl px-5 py-20 sm:px-6 sm:py-28">
       <p className="label-mono">03 — Membership</p>
       <h2 className="display mt-3 text-5xl sm:text-6xl">
         Regulars <span className="text-gold">Club</span>

@@ -11,7 +11,7 @@ const SOCIALS = [
 
 export function BookFooter() {
   return (
-    <footer id="book" className="border-t border-border">
+    <footer id="book" className="scroll-mt-16 border-t border-border">
       <div className="mx-auto max-w-5xl px-5 py-20 sm:px-6 sm:py-28">
         <div className="text-center">
           <img

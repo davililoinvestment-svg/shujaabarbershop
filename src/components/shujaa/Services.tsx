@@ -52,7 +52,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="mx-auto max-w-6xl px-5 py-20 sm:px-6 sm:py-28">
+    <section id="services" className="scroll-mt-20 mx-auto max-w-6xl px-5 py-20 sm:px-6 sm:py-28">
       <p className="label-mono">01 — The Menu</p>
       <h2 className="display mt-3 text-5xl sm:text-6xl">
         Signature <span className="text-gold">Services</span>

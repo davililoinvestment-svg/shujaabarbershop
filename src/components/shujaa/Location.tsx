@@ -12,7 +12,7 @@ const rows = [
 
 export function Location() {
   return (
-    <section id="location" className="bg-panel/60">
+    <section id="location" className="scroll-mt-16 bg-panel/60">
       <div className="mx-auto max-w-3xl px-5 py-20 text-center sm:px-6 sm:py-28">
         <p className="label-mono">04 — Find Us</p>
         <h2 className="display mt-3 text-4xl sm:text-5xl">
