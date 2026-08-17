@@ -76,6 +76,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   head: () => ({
     meta: [
       { charSet: "utf-8" },
+      {
+        name: "google-site-verification",
+        content: "QMFFbJKuyu7J-F2Y84siaiPqtouATCycp5G2TdpHblc",
+      },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "SHUJAA Barbershop — Crafted Cuts. Premium Services." },
       {
