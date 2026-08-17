@@ -1,24 +1,43 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Header } from "@/components/shujaa/Header";
+import { Hero } from "@/components/shujaa/Hero";
+import { Services } from "@/components/shujaa/Services";
+import { Combos } from "@/components/shujaa/Combos";
+import { Membership } from "@/components/shujaa/Membership";
+import { Location } from "@/components/shujaa/Location";
+import { BookFooter } from "@/components/shujaa/BookFooter";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
+const title = "SHUJAA Barbershop — Crafted Cuts in Ruiru";
+const description =
+  "Premium barbering on Kiambu Road, Ruiru. Precision cuts, beard trims, facials and Regulars Club memberships. Open daily 8:00 AM – 10:00 PM.";
+
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="grain">
+      <div className="grain-layer" aria-hidden="true" />
+      <Header />
+      <Hero />
+      <Services />
+      <div className="pole-divider" aria-hidden="true" />
+      <Combos />
+      <Membership />
+      <div className="pole-divider" aria-hidden="true" />
+      <Location />
+      <BookFooter />
+    </main>
   );
 }
