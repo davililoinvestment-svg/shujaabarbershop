@@ -22,8 +22,13 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
       { property: "og:url", content: SITE_URL },
+      { property: "og:site_name", content: "SHUJAA Barbershop" },
+      { property: "og:locale", content: "en_KE" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: title },
+      { name: "twitter:description", content: description },
     ],
+
     links: [{ rel: "canonical", href: SITE_URL }],
     scripts: [
       {
