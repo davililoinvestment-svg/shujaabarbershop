@@ -11,7 +11,7 @@ const title = "SHUJAA Barbershop — Crafted Cuts in Ruiru";
 const description =
   "Premium barbering on Kiambu Road, Ruiru. Precision cuts, beard trims, facials and Regulars Club memberships. Open daily 8:00 AM – 10:00 PM.";
 
-const SITE_URL = "https://shujaabarbershop.lovable.app";
+const SITE_URL = "https://shujaabarbershop.lovable.app/";
 
 export const Route = createFileRoute("/")({
   head: () => ({
