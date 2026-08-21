@@ -1,6 +1,7 @@
 import { ChevronDown, MapPin } from "lucide-react";
 import heroImg from "@/assets/hero-fade.jpg";
 import logoAsset from "@/assets/shujaa-logo.jpg.asset.json";
+import barbershopScript from "@/assets/barbershop-script.png";
 const logo = logoAsset.url;
 
 export function Hero() {
@@ -28,10 +29,16 @@ export function Hero() {
           className="h-16 w-16 object-contain sm:h-20 sm:w-20"
         />
 
-        <h1 className="display mt-6 text-[19vw] leading-none sm:text-8xl md:text-9xl">
+        <h1 className="wordmark mt-6 text-[19vw] leading-none sm:text-8xl md:text-9xl">
           SHUJ<span className="text-gold">AA</span>
         </h1>
-        <p className="label-mono mt-1 text-foreground/80 sm:text-xs">Barbershop</p>
+        <img
+          src={barbershopScript}
+          alt="Barbershop"
+          width={1152}
+          height={576}
+          className="mt-2 h-9 w-auto object-contain sm:h-11"
+        />
 
         <p className="mt-7 max-w-xl text-lg text-foreground sm:text-xl">
           Crafted Cuts. Premium Services.

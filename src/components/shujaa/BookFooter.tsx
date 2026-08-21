@@ -1,13 +1,16 @@
-import { Facebook, Instagram, Mail, MapPin, Music2, Phone } from "lucide-react";
+import { Facebook, Instagram, MapPin, Music2, Phone } from "lucide-react";
 import logoAsset from "@/assets/shujaa-logo.jpg.asset.json";
+import barbershopScript from "@/assets/barbershop-script.png";
 const logo = logoAsset.url;
 
-// EDITABLE: replace the email and social links below with the shop's real accounts.
-const EMAIL = "hello@shujaabarbershop.co.ke";
 const SOCIALS = [
-  { icon: Instagram, label: "Instagram", href: "https://instagram.com" },
-  { icon: Facebook, label: "Facebook", href: "https://facebook.com" },
-  { icon: Music2, label: "TikTok", href: "https://tiktok.com" },
+  { icon: Instagram, label: "Instagram", href: "https://instagram.com/shujaa_barbershop" },
+  {
+    icon: Facebook,
+    label: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61593529376772",
+  },
+  { icon: Music2, label: "TikTok", href: "https://www.tiktok.com/@shujaa_barbershop" },
 ];
 
 export function BookFooter() {
@@ -23,6 +26,14 @@ export function BookFooter() {
             height={764}
             className="mx-auto h-12 w-12 object-contain"
           />
+          <img
+            src={barbershopScript}
+            alt="Barbershop"
+            loading="lazy"
+            width={1152}
+            height={576}
+            className="mx-auto mt-3 h-7 w-auto object-contain"
+          />
           <h2 className="display mt-6 text-6xl sm:text-7xl">
             Book <span className="text-gold">Now</span>
           </h2>
@@ -32,7 +43,7 @@ export function BookFooter() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-3">
+        <div className="mt-12 grid gap-px overflow-hidden rounded-sm border border-border bg-border sm:grid-cols-2">
           <a
             href="tel:+254756002454"
             className="bg-card px-6 py-7 transition-colors hover:bg-panel"
@@ -40,11 +51,6 @@ export function BookFooter() {
             <Phone className="h-5 w-5 text-gold" aria-hidden="true" />
             <p className="label-mono mt-4">Call / WhatsApp</p>
             <p className="mt-1.5 text-base text-foreground">0756 002 454</p>
-          </a>
-          <a href={`mailto:${EMAIL}`} className="bg-card px-6 py-7 transition-colors hover:bg-panel">
-            <Mail className="h-5 w-5 text-gold" aria-hidden="true" />
-            <p className="label-mono mt-4">Email</p>
-            <p className="mt-1.5 break-all text-base text-foreground">{EMAIL}</p>
           </a>
           <div className="bg-card px-6 py-7">
             <MapPin className="h-5 w-5 text-gold" aria-hidden="true" />

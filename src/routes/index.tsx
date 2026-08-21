@@ -6,6 +6,7 @@ import { Combos } from "@/components/shujaa/Combos";
 import { Membership } from "@/components/shujaa/Membership";
 import { Location } from "@/components/shujaa/Location";
 import { BookFooter } from "@/components/shujaa/BookFooter";
+import { WhatsAppFab } from "@/components/shujaa/WhatsAppFab";
 
 const title = "SHUJAA Barbershop — Crafted Cuts in Ruiru";
 const description =
@@ -83,6 +84,7 @@ function Index() {
       <div className="pole-divider" aria-hidden="true" />
       <Location />
       <BookFooter />
+      <WhatsAppFab />
     </main>
   );
 }
