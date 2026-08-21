@@ -1,6 +1,5 @@
 import { Facebook, Instagram, MapPin, Music2, Phone } from "lucide-react";
 import logoAsset from "@/assets/shujaa-logo.jpg.asset.json";
-import barbershopScript from "@/assets/barbershop-script.png";
 const logo = logoAsset.url;
 
 const SOCIALS = [
@@ -25,14 +24,6 @@ export function BookFooter() {
             width={711}
             height={764}
             className="mx-auto h-12 w-12 object-contain"
-          />
-          <img
-            src={barbershopScript}
-            alt="Barbershop"
-            loading="lazy"
-            width={1152}
-            height={576}
-            className="mx-auto mt-3 h-7 w-auto object-contain"
           />
           <h2 className="display mt-6 text-6xl sm:text-7xl">
             Book <span className="text-gold">Now</span>

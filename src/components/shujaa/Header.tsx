@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import logoAsset from "@/assets/shujaa-logo.jpg.asset.json";
-import barbershopScript from "@/assets/barbershop-script.png";
 import { WHATSAPP_CHANNEL } from "./WhatsAppFab";
 const logo = logoAsset.url;
 
@@ -39,13 +38,7 @@ export function Header() {
             <span className="wordmark block text-xl text-foreground">
               SHUJ<span className="text-gold">AA</span>
             </span>
-            <img
-              src={barbershopScript}
-              alt="Barbershop"
-              width={1152}
-              height={576}
-              className="mt-0.5 block h-3 w-auto object-contain"
-            />
+            <span className="label-mono block text-[0.55rem]">Barbershop</span>
           </span>
         </a>
 
