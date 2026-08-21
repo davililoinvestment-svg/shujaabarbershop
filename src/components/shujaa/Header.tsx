@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import logoAsset from "@/assets/shujaa-logo.jpg.asset.json";
+import { WHATSAPP_CHANNEL } from "./WhatsAppFab";
 const logo = logoAsset.url;
 
 const nav = [
@@ -34,7 +35,9 @@ export function Header() {
             className="h-9 w-9 object-contain"
           />
           <span className="leading-none">
-            <span className="display block text-xl text-foreground">SHUJAA</span>
+            <span className="wordmark block text-xl text-foreground">
+              SHUJ<span className="text-gold">AA</span>
+            </span>
             <span className="label-mono block text-[0.55rem]">Barbershop</span>
           </span>
         </a>
@@ -49,6 +52,14 @@ export function Header() {
               {item.label}
             </a>
           ))}
+          <a
+            href={WHATSAPP_CHANNEL}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="label-mono rounded-full border border-gold/50 px-3 py-1.5 text-[0.55rem] text-gold-bright transition-colors hover:bg-gold/10"
+          >
+            Join our WhatsApp Channel
+          </a>
         </nav>
 
         <a

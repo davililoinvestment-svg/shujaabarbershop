@@ -38,6 +38,7 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --font-display: "Bebas Neue", "Arial Narrow", sans-serif;
+  --font-wordmark: "Bangers", "Bebas Neue", sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
   --font-mono: "Space Mono", ui-monospace, monospace;
 }
@@ -222,4 +223,13 @@
 }
 @utility animate-scroll-cue {
   animation: scroll-cue 2s ease-in-out infinite;
+}
+
+/* Brush/graffiti wordmark for the SHUJAA name lockup */
+@utility wordmark {
+  font-family: var(--font-wordmark);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 0.95;
+  text-transform: uppercase;
 }

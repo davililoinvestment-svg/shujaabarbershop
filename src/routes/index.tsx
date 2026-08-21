@@ -6,10 +6,11 @@ import { Combos } from "@/components/shujaa/Combos";
 import { Membership } from "@/components/shujaa/Membership";
 import { Location } from "@/components/shujaa/Location";
 import { BookFooter } from "@/components/shujaa/BookFooter";
+import { WhatsAppFab } from "@/components/shujaa/WhatsAppFab";
 
 const title = "SHUJAA Barbershop — Crafted Cuts in Ruiru";
 const description =
-  "Premium barbering on Kiambu Road, Ruiru. Precision cuts, beard trims, facials and Regulars Club memberships. Open daily 8:00 AM – 10:00 PM.";
+  "Premium barbering on Kamiti Road, Ruiru. Precision cuts, beard trims, facials and Regulars Club memberships. Open daily 8:00 AM – 10:00 PM.";
 
 const SITE_URL = "https://shujaabarbershop.lovable.app/";
 
@@ -42,7 +43,7 @@ export const Route = createFileRoute("/")({
           telephone: "+254756002454",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Kiambu Road, opposite King's Affordable Housing",
+            streetAddress: "Kamiti Road, at Boma Mini Mart, near Liquor Mart, opposite Kings Boma Affordable Housing",
             addressLocality: "Ruiru",
             addressCountry: "KE",
           },
@@ -83,6 +84,7 @@ function Index() {
       <div className="pole-divider" aria-hidden="true" />
       <Location />
       <BookFooter />
+      <WhatsAppFab />
     </main>
   );
 }
