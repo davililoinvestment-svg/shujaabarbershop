@@ -38,7 +38,7 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --font-display: "Bebas Neue", "Arial Narrow", sans-serif;
-  --font-wordmark: "Bangers", "Bebas Neue", sans-serif;
+  --font-wordmark: "Titan One", "Bangers", "Bebas Neue", sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
   --font-mono: "Space Mono", ui-monospace, monospace;
 }
@@ -229,7 +229,7 @@
 @utility wordmark {
   font-family: var(--font-wordmark);
   font-weight: 400;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   line-height: 0.95;
   text-transform: uppercase;
 }
