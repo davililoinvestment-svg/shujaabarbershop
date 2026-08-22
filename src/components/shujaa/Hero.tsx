@@ -31,7 +31,7 @@ export function Hero() {
         <h1 className="wordmark mt-6 text-[19vw] leading-none sm:text-8xl md:text-9xl">
           SHUJAA
         </h1>
-        <p className="wordmark mt-2 text-[7vw] tracking-[-0.01em] sm:text-3xl md:text-4xl">Barbershop</p>
+        <p className="script-mark mt-1 text-[9vw] sm:text-4xl md:text-5xl">Barbershop</p>
 
         <p className="mt-7 max-w-xl text-lg text-foreground sm:text-xl">
           Crafted Cuts. Premium Services.

@@ -36,7 +36,7 @@ export function Header() {
           />
           <span className="leading-none">
             <span className="wordmark block text-xl">SHUJAA</span>
-            <span className="wordmark block text-[0.7rem] tracking-[-0.01em]">Barbershop</span>
+            <span className="script-mark block text-sm">Barbershop</span>
           </span>
         </a>
 
