@@ -38,7 +38,7 @@ export function Header() {
             <span className="wordmark block text-xl text-foreground">
               SHUJ<span className="text-gold">AA</span>
             </span>
-            <span className="wordmark block text-[0.6rem] tracking-[0.18em] text-muted-foreground">Barbershop</span>
+            <span className="wordmark block text-[0.7rem] tracking-[-0.01em]">Barbershop</span>
           </span>
         </a>
 
