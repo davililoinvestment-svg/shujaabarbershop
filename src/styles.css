@@ -38,7 +38,7 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --font-display: "Bebas Neue", "Arial Narrow", sans-serif;
-  --font-wordmark: "Titan One", "Bangers", "Bebas Neue", sans-serif;
+  --font-wordmark: "Alfa Slab One", "Bangers", "Bebas Neue", sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
   --font-mono: "Space Mono", ui-monospace, monospace;
 }
@@ -229,7 +229,13 @@
 @utility wordmark {
   font-family: var(--font-wordmark);
   font-weight: 400;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.01em;
   line-height: 0.95;
   text-transform: uppercase;
+  color: var(--gold);
+  -webkit-text-stroke: 0.02em #0B0A08;
+  paint-order: stroke fill;
+  text-shadow:
+    0.03em 0.03em 0 #0B0A08,
+    0.055em 0.055em 0 var(--gold-bright);
 }

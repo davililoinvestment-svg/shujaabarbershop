@@ -35,10 +35,8 @@ export function Header() {
             className="h-9 w-9 object-contain"
           />
           <span className="leading-none">
-            <span className="wordmark block text-xl text-foreground">
-              SHUJ<span className="text-gold">AA</span>
-            </span>
-            <span className="wordmark block text-[0.6rem] tracking-[0.18em] text-muted-foreground">Barbershop</span>
+            <span className="wordmark block text-xl">SHUJAA</span>
+            <span className="wordmark block text-[0.7rem] tracking-[-0.01em]">Barbershop</span>
           </span>
         </a>
 
