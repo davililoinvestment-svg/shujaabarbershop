@@ -226,19 +226,21 @@
   animation: scroll-cue 2s ease-in-out infinite;
 }
 
-/* Brush/graffiti wordmark for the SHUJAA name lockup */
+/* SHUJAA wordmark in Monotype-Corsiva-style script — gold with a black margin */
 @utility wordmark {
-  font-family: var(--font-wordmark);
+  font-family: var(--font-script);
   font-weight: 400;
-  letter-spacing: -0.01em;
-  line-height: 0.95;
-  text-transform: uppercase;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  line-height: 1.05;
   color: var(--gold);
-  -webkit-text-stroke: 0.02em #0B0A08;
-  paint-order: stroke fill;
+  -webkit-text-stroke: 0;
   text-shadow:
-    0.03em 0.03em 0 #0B0A08,
-    0.055em 0.055em 0 var(--gold-bright);
+    -1px -1px 0 #0B0A08,
+    1px -1px 0 #0B0A08,
+    -1px 1px 0 #0B0A08,
+    1px 1px 0 #0B0A08,
+    2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* Monotype-Corsiva-style script for the "Barbershop" sub-wordmark */
@@ -250,5 +252,10 @@
   line-height: 1.1;
   color: var(--gold);
   -webkit-text-stroke: 0;
-  text-shadow: 0.02em 0.02em 0 #0B0A08;
+  text-shadow:
+    -1px -1px 0 #0B0A08,
+    1px -1px 0 #0B0A08,
+    -1px 1px 0 #0B0A08,
+    1px 1px 0 #0B0A08,
+    1px 1px 0 rgba(0, 0, 0, 0.5);
 }
