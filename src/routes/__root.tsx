@@ -85,7 +85,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "SHUJAA Barbershop, Kamiti Road, Ruiru. Crafted cuts, beard work and facials. Open daily 8:00 AM – 10:00 PM.",
+          "SHUJAA Barbershop, Ruiru — Kamiti Road. Crafted cuts, beard work and facials. Open daily 8:00 AM – 10:00 PM.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

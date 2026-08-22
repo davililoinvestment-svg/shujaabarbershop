@@ -10,7 +10,7 @@ import { WhatsAppFab } from "@/components/shujaa/WhatsAppFab";
 
 const title = "SHUJAA Barbershop — Crafted Cuts in Ruiru";
 const description =
-  "Premium barbering on Kamiti Road, Ruiru. Precision cuts, beard trims, facials and Regulars Club memberships. Open daily 8:00 AM – 10:00 PM.";
+  "Premium barbering in Ruiru — Kamiti Road. Precision cuts, beard trims, facials and Regulars Club memberships. Open daily 8:00 AM – 10:00 PM.";
 
 const SITE_URL = "https://shujaabarbershop.lovable.app/";
 
@@ -43,7 +43,7 @@ export const Route = createFileRoute("/")({
           telephone: "+254756002454",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Kamiti Road, at Boma Mini Mart, near Liquor Mart, opposite Kings Boma Affordable Housing",
+            streetAddress: "Ruiru — Kamiti Road, at Boma Mini Mart, near Liquor Mart, opposite Kings Boma Affordable Housing",
             addressLocality: "Ruiru",
             addressCountry: "KE",
           },
