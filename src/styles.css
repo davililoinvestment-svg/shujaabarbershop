@@ -228,20 +228,23 @@
 
 /* SHUJAA wordmark in Monotype-Corsiva-style script — gold with a black margin */
 @utility wordmark {
-  font-family: var(--font-wordmark);
-  font-weight: 900;
-  font-style: italic;
+  font-family: var(--font-script);
+  font-weight: 700;
   text-transform: none;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   line-height: 1.05;
-  color: var(--foreground);
+  color: var(--gold);
   -webkit-text-stroke: 0;
   text-shadow:
-    -1px -1px 0 #0B0A08,
-    1px -1px 0 #0B0A08,
-    -1px 1px 0 #0B0A08,
-    1px 1px 0 #0B0A08,
-    3px 3px 0 rgba(0, 0, 0, 0.55);
+    -2px -2px 0 #0B0A08,
+    2px -2px 0 #0B0A08,
+    -2px 2px 0 #0B0A08,
+    2px 2px 0 #0B0A08,
+    -3px 0px 0 #0B0A08,
+    3px 0px 0 #0B0A08,
+    0px -3px 0 #0B0A08,
+    0px 3px 0 #0B0A08,
+    4px 4px 0 rgba(0, 0, 0, 0.55);
 }
 
 /* Monotype-Corsiva-style script for the "Barbershop" sub-wordmark */
