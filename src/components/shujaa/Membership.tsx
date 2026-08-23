@@ -8,12 +8,20 @@ const plans = [
     items: ["4 haircuts", "4 beard trims", "1 full facial", "Priority booking"],
   },
   {
-    title: "Monthly Pass",
-    price: "Ksh 2,300",
+    title: "Full Works",
+    price: "Ksh 9,500",
     badge: null,
-    items: ["4 haircuts", "4 beard trims", "Priority booking"],
+    items: [
+      "4 haircuts",
+      "4 beard trims",
+      "4 full facials",
+      "Pedicure",
+      "Manicure",
+      "Priority booking",
+    ],
   },
 ];
+
 
 export function Membership() {
   return (

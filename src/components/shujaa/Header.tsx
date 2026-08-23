@@ -35,7 +35,7 @@ export function Header() {
             className="h-9 w-9 object-contain"
           />
           <span className="leading-none">
-            <span className="wordmark block text-xl">SHUJAA</span>
+            <span className="wordmark block text-xl">SHUJ<span className="text-gold-bright">AA</span></span>
             <span className="script-mark block text-sm">Barbershop</span>
           </span>
         </a>
@@ -50,14 +50,6 @@ export function Header() {
               {item.label}
             </a>
           ))}
-          <a
-            href={WHATSAPP_CHANNEL}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="label-mono rounded-full border border-gold/50 px-3 py-1.5 text-[0.55rem] text-gold-bright transition-colors hover:bg-gold/10"
-          >
-            Join our WhatsApp Channel
-          </a>
         </nav>
 
         <a
@@ -67,6 +59,15 @@ export function Header() {
           Book Now
         </a>
       </div>
+
+      <a
+        href={WHATSAPP_CHANNEL}
+        target="_blank"
+        rel="noreferrer noopener"
+        className="label-mono absolute left-1/2 top-full -translate-x-1/2 whitespace-nowrap rounded-b-full border border-gold/50 border-t-0 bg-panel/95 px-4 py-2 text-[0.5rem] text-gold-bright shadow-[var(--shadow-gold)] backdrop-blur-sm transition-colors hover:bg-gold/15 sm:text-[0.55rem]"
+      >
+        Join our WhatsApp Channel
+      </a>
     </header>
   );
 }

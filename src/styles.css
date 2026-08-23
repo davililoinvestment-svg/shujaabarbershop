@@ -39,7 +39,7 @@
   --color-ring: var(--ring);
   --font-display: "Bebas Neue", "Arial Narrow", sans-serif;
   --font-script: "Pinyon Script", "Monotype Corsiva", cursive;
-  --font-wordmark: "Alfa Slab One", "Bangers", "Bebas Neue", sans-serif;
+  --font-wordmark: "Playfair Display", "Times New Roman", serif;
   --font-sans: "Inter", system-ui, sans-serif;
   --font-mono: "Space Mono", ui-monospace, monospace;
 }
@@ -228,19 +228,20 @@
 
 /* SHUJAA wordmark in Monotype-Corsiva-style script — gold with a black margin */
 @utility wordmark {
-  font-family: var(--font-script);
-  font-weight: 400;
+  font-family: var(--font-wordmark);
+  font-weight: 900;
+  font-style: italic;
   text-transform: none;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   line-height: 1.05;
-  color: var(--gold);
+  color: var(--foreground);
   -webkit-text-stroke: 0;
   text-shadow:
     -1px -1px 0 #0B0A08,
     1px -1px 0 #0B0A08,
     -1px 1px 0 #0B0A08,
     1px 1px 0 #0B0A08,
-    2px 2px 0 rgba(0, 0, 0, 0.5);
+    3px 3px 0 rgba(0, 0, 0, 0.55);
 }
 
 /* Monotype-Corsiva-style script for the "Barbershop" sub-wordmark */
