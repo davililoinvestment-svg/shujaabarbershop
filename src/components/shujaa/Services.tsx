@@ -1,17 +1,66 @@
 import svcCut from "@/assets/svc-cut.jpeg.asset.json";
-import svcBeard from "@/assets/svc-beard.jpeg.asset.json";
-import svcMassage from "@/assets/svc-massage.jpg.asset.json";
-import svcFacial from "@/assets/svc-facial.jpeg.asset.json";
-import svcDye from "@/assets/svc-dye.jpeg.asset.json";
+import svcTeens from "@/assets/svc-teens.jpeg.asset.json";
+import svcKids from "@/assets/svc-kids.jpeg.asset.json";
+import svcDyeShort from "@/assets/svc-dye-short.jpeg.asset.json";
+import svcDyeLong from "@/assets/svc-dye-long.jpeg.asset.json";
 import svcCurls from "@/assets/svc-curls.jpeg.asset.json";
+import svcRetouch from "@/assets/svc-retouch.jpeg.asset.json";
+import svcBeard from "@/assets/svc-beard.jpeg.asset.json";
+import svcFacial from "@/assets/svc-facial.jpeg.asset.json";
+import svcScrub from "@/assets/svc-scrub.jpeg.asset.json";
+import svcMassage from "@/assets/svc-massage.jpg.asset.json";
+import svcPedicure from "@/assets/svc-pedicure.jpeg.asset.json";
+import svcManicure from "@/assets/svc-manicure.jpeg.asset.json";
 
 const services = [
   {
-    title: "Precision Cut",
+    title: "Adults Precision Cut",
     price: "Sh. 350",
     copy: "Clean, sharp low-taper fade, shaped to your face and finished with a razor line-up.",
     img: svcCut.url,
     alt: "Sharp taper fade cut on a client at the barbershop",
+  },
+  {
+    title: "Teens Precision Cut",
+    price: "Sh. 200",
+    copy: "A crisp taper and line-up built for teens, styled clean and school-ready.",
+    img: svcTeens.url,
+    alt: "Teenage client with a clean taper fade and sponge curls",
+  },
+  {
+    title: "Kids Precision Cut",
+    price: "Sh. 150",
+    copy: "Gentle, patient work for the young ones — neat shape, sharp edges.",
+    img: svcKids.url,
+    alt: "Young boy with a fresh taper fade and defined line-up",
+  },
+  {
+    title: "Dye Short Hair",
+    price: "Sh. 300",
+    copy: "Short-hair colour work, matched and blended clean into your fade.",
+    img: svcDyeShort.url,
+    alt: "Client with blonde dyed short curls and a clean fade",
+  },
+  {
+    title: "Dye Long Hair",
+    price: "Sh. 500",
+    copy: "Full colour on longer hair, applied evenly for a rich, consistent finish.",
+    img: svcDyeLong.url,
+    alt: "Client with a full blonde dyed curly top and low fade",
+  },
+  {
+    title: "Curling",
+    price: "Sh. 350",
+    copy: "Defined curl treatment for texture and hold that lasts through the week.",
+    img: svcCurls.url,
+    alt: "Client with defined curls and a faded taper",
+  },
+  {
+    title: "Retouch",
+    price: "Sh. 1,000",
+    copy: "Dreadlocks retwist and retouch, tightened at the root and neatly finished.",
+    img: svcRetouch.url,
+    alt: "Client with freshly retwisted dreadlocks and a clean line-up",
   },
   {
     title: "Beard Trim",
@@ -21,32 +70,39 @@ const services = [
     alt: "Close-up of a full beard shaped with a clean edge-up",
   },
   {
-    title: "After-Shave Massage",
+    title: "Full Facial",
+    price: "Sh. 850",
+    copy: "Deep cleanse, scrub and steam finish that leaves skin fresh and even.",
+    img: svcFacial.url,
+    alt: "Client having a deep cleanse facial treatment applied",
+  },
+  {
+    title: "Facial Scrub",
+    price: "Sh. 350",
+    copy: "Quick exfoliating scrub that lifts dead skin and evens out your tone.",
+    img: svcScrub.url,
+    alt: "Client receiving an exfoliating facial scrub treatment",
+  },
+  {
+    title: "5-Minute Massage",
     price: "Free",
     copy: "A 5-minute head and shoulder massage to close out the session, on the house.",
     img: svcMassage.url,
     alt: "Client receiving a hot towel and head massage after a cut",
   },
   {
-    title: "Full Facial",
-    price: "Sh. 700",
-    copy: "Deep cleanse, scrub and steam finish that leaves skin fresh and even.",
-    img: svcFacial.url,
-    alt: "Client having a deep cleanse facial treatment applied",
+    title: "Pedicure",
+    price: "Sh. 850",
+    copy: "Full soak, cuticle work and buff for clean, well-kept feet.",
+    img: svcPedicure.url,
+    alt: "Pedicure treatment with toe separators and polish being applied",
   },
   {
-    title: "Dye & Colour",
-    price: "Sh. 300",
-    copy: "Full colour or short-hair dye work, matched and blended to your style.",
-    img: svcDye.url,
-    alt: "Client with a bold coloured afro and clean fade",
-  },
-  {
-    title: "Curling",
-    price: "Sh. 350",
-    copy: "Defined curl treatment for texture and hold that lasts through the week.",
-    img: svcCurls.url,
-    alt: "Client with defined curls and a faded taper",
+    title: "Manicure",
+    price: "Sh. 400",
+    copy: "Nails shaped, cuticles tidied and buffed to a clean natural finish.",
+    img: svcManicure.url,
+    alt: "Hands after a manicure with neatly shaped, buffed nails",
   },
 ];
 
