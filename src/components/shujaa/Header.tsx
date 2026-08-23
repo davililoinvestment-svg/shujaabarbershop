@@ -64,7 +64,7 @@ export function Header() {
         href={WHATSAPP_CHANNEL}
         target="_blank"
         rel="noreferrer noopener"
-        className="label-mono absolute left-1/2 top-full -translate-x-1/2 rounded-b-full border border-gold/50 border-t-0 bg-panel/95 px-4 py-2 text-[0.5rem] text-gold-bright shadow-[var(--shadow-gold)] backdrop-blur-sm transition-colors hover:bg-gold/15 sm:text-[0.55rem]"
+        className="label-mono absolute left-1/2 top-full -translate-x-1/2 whitespace-nowrap rounded-b-full border border-gold/50 border-t-0 bg-panel/95 px-4 py-2 text-[0.5rem] text-gold-bright shadow-[var(--shadow-gold)] backdrop-blur-sm transition-colors hover:bg-gold/15 sm:text-[0.55rem]"
       >
         Join our WhatsApp Channel
       </a>
