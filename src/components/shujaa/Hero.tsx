@@ -29,7 +29,7 @@ export function Hero() {
         />
 
         <h1 className="wordmark mt-6 text-[19vw] leading-none sm:text-8xl md:text-9xl">
-          SHUJAA
+          SHUJ<span className="text-gold-bright">AA</span>
         </h1>
         <p className="script-mark mt-1 text-[9vw] sm:text-4xl md:text-5xl">Barbershop</p>
 
