@@ -29,7 +29,7 @@ export function Membership() {
         Come in every week. Pay once a month, skip the queue.
       </p>
 
-      <div className="mt-12 grid gap-7 md:grid-cols-2">
+      <div className="mt-12 grid gap-7 md:max-w-md">
         {plans.map((p) => (
           <div
             key={p.title}
