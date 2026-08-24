@@ -2,15 +2,9 @@ import { Check } from "lucide-react";
 
 const plans = [
   {
-    title: "Full Grooming",
-    price: "Ksh 3,400",
-    badge: "Best Value",
-    items: ["4 haircuts", "4 beard trims", "1 full facial", "Priority booking"],
-  },
-  {
-    title: "Full Works",
+    title: "Monthly Plan",
     price: "Ksh 9,500",
-    badge: null,
+    badge: "Best Value",
     items: [
       "4 haircuts",
       "4 beard trims",
@@ -21,6 +15,7 @@ const plans = [
     ],
   },
 ];
+
 
 
 export function Membership() {
