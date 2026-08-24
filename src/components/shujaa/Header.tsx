@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Menu, X } from "lucide-react";
 import logoAsset from "@/assets/shujaa-logo.jpg.asset.json";
 import { WHATSAPP_CHANNEL } from "./WhatsAppFab";
 const logo = logoAsset.url;
@@ -11,6 +12,7 @@ const nav = [
 
 export function Header() {
   const [solid, setSolid] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setSolid(window.scrollY > 40);
@@ -18,6 +20,7 @@ export function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
 
   return (
     <header
