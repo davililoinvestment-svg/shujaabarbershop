@@ -4,7 +4,7 @@ const rows = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Ruiru — Kamiti Road, at Boma Mini Mart, near Liquor Mart, opposite Kings Boma Affordable Housing",
+    value: "Ruiru, Kamiti Road, next to Liquor Mart, opposite Kings Boma Affordable Housing",
   },
   { icon: Clock, label: "Hours", value: "Open daily, 8:00 AM – 10:00 PM" },
   { icon: Phone, label: "Phone", value: "0756 002 454" },

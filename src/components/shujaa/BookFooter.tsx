@@ -46,7 +46,7 @@ export function BookFooter() {
           <div className="bg-card px-6 py-7">
             <MapPin className="h-5 w-5 text-gold" aria-hidden="true" />
             <p className="label-mono mt-4">Location</p>
-            <p className="mt-1.5 text-base text-foreground">Ruiru — Kamiti Road, at Boma Mini Mart, near Liquor Mart, opposite Kings Boma Affordable Housing</p>
+            <p className="mt-1.5 text-base text-foreground">Ruiru, Kamiti Road, next to Liquor Mart, opposite Kings Boma Affordable Housing</p>
           </div>
         </div>
 
@@ -69,7 +69,7 @@ export function BookFooter() {
       <div className="border-y border-border bg-panel/60">
         <div className="label-mono mx-auto flex max-w-6xl flex-col items-center gap-2 px-5 py-4 text-center sm:flex-row sm:justify-between sm:px-6">
           <span>Open daily · 8:00 AM – 10:00 PM</span>
-          <span>Ruiru — Kamiti Road, at Boma Mini Mart, near Liquor Mart, opposite Kings Boma Affordable Housing</span>
+          <span>Ruiru, Kamiti Road, next to Liquor Mart, opposite Kings Boma Affordable Housing</span>
           <span>0756 002 454</span>
         </div>
       </div>
