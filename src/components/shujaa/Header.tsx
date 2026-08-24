@@ -69,8 +69,8 @@ export function Header() {
             onClick={() => setOpen((v) => !v)}
             className="rounded-sm border border-border p-2 text-foreground md:hidden"
           >
-            {open ? <Menu className="hidden h-5 w-5" /> : null}
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+
           </button>
         </div>
       </div>
