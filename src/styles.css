@@ -65,6 +65,9 @@
   --gold: oklch(0.72 0.11 84);
   /* #E9C873 */
   --gold-bright: oklch(0.84 0.096 88);
+  /* solid grey mobile menu surface */
+  --surface-grey: oklch(0.44 0.004 80);
+
   --secondary: oklch(0.222 0.011 82);
   --secondary-foreground: oklch(0.947 0.019 90);
   --muted: oklch(0.222 0.011 82);
