@@ -1,8 +1,12 @@
 const combos = [
-  { title: "Full Grooming", price: "Sh. 1,400", copy: "Cut + beard + facial, one sitting" },
+  {
+    title: "Full Grooming",
+    price: "Sh. 2,400",
+    copy: "Cut + beard + facial + pedicure + manicure, one sitting",
+  },
   { title: "VIP Cut", price: "Sh. 650", copy: "Precision cut, beard shape, extended massage" },
-  { title: "Retouch + Trim", price: "Sh. 1,300", copy: "Dreadlocks retouch with a full trim" },
 ];
+
 
 export function Combos() {
   return (
