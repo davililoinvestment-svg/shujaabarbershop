@@ -226,26 +226,26 @@
   animation: scroll-cue 2s ease-in-out infinite;
 }
 
-/* SHUJAA wordmark in Monotype-Corsiva-style script — gold with a black margin */
+/* SHUJAA wordmark — bold italic serif, ivory with gold accent letters */
 @utility wordmark {
-  font-family: var(--font-script);
-  font-weight: 700;
+  font-family: var(--font-wordmark);
+  font-style: italic;
+  font-weight: 900;
   text-transform: none;
-  letter-spacing: 0.02em;
-  line-height: 1.05;
-  color: var(--gold);
+  letter-spacing: -0.005em;
+  line-height: 1.02;
+  color: var(--foreground);
   -webkit-text-stroke: 0;
   text-shadow:
     -2px -2px 0 #0B0A08,
     2px -2px 0 #0B0A08,
     -2px 2px 0 #0B0A08,
     2px 2px 0 #0B0A08,
-    -3px 0px 0 #0B0A08,
-    3px 0px 0 #0B0A08,
-    0px -3px 0 #0B0A08,
     0px 3px 0 #0B0A08,
-    4px 4px 0 rgba(0, 0, 0, 0.55);
+    0px -3px 0 #0B0A08,
+    5px 5px 12px rgba(0, 0, 0, 0.6);
 }
+
 
 /* Monotype-Corsiva-style script for the "Barbershop" sub-wordmark */
 @utility script-mark {
