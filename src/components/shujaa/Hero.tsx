@@ -41,7 +41,7 @@ export function Hero() {
         <div className="mt-7 inline-flex items-center gap-2 rounded-full border border-border bg-panel/70 px-4 py-2 backdrop-blur-sm">
           <MapPin className="h-3.5 w-3.5 text-gold" aria-hidden="true" />
           <span className="label-mono text-[0.6rem] text-foreground/85 sm:text-[0.65rem]">
-            Ruiru — Kamiti Road, at Boma Mini Mart, near Liquor Mart, opposite Kings Boma Affordable Housing
+            Ruiru, Kamiti Road, next to Liquor Mart, opposite Kings Boma Affordable Housing
           </span>
         </div>
 

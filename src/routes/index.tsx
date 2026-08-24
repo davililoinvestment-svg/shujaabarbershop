@@ -43,7 +43,7 @@ export const Route = createFileRoute("/")({
           telephone: "+254756002454",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Ruiru — Kamiti Road, at Boma Mini Mart, near Liquor Mart, opposite Kings Boma Affordable Housing",
+            streetAddress: "Ruiru, Kamiti Road, next to Liquor Mart, opposite Kings Boma Affordable Housing",
             addressLocality: "Ruiru",
             addressCountry: "KE",
           },

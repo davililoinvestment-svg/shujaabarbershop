@@ -67,23 +67,22 @@ export function Header() {
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="rounded-sm border border-border p-2 text-foreground md:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-gold/60 bg-panel/80 text-gold-bright shadow-[var(--shadow-gold)] backdrop-blur-sm transition-colors hover:bg-gold/15 active:scale-95 md:hidden"
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-
           </button>
         </div>
       </div>
 
       {open && (
-        <nav className="border-t border-border bg-surface-grey md:hidden">
-          <div className="mx-auto flex max-w-6xl flex-col px-4 py-2 sm:px-6">
+        <nav className="border-y border-gold/25 bg-surface-grey shadow-[var(--shadow-lift)] md:hidden">
+          <div className="mx-auto flex max-w-6xl flex-col px-4 py-1 sm:px-6">
             {nav.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="label-mono border-b border-border/40 py-3 text-foreground last:border-b-0"
+                className="label-mono border-b border-foreground/15 py-3.5 text-foreground transition-colors last:border-b-0 hover:text-gold-bright"
               >
                 {item.label}
               </a>
@@ -91,6 +90,7 @@ export function Header() {
           </div>
         </nav>
       )}
+
 
 
       <a
