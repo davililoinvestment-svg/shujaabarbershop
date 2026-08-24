@@ -55,13 +55,43 @@ export function Header() {
           ))}
         </nav>
 
-        <a
-          href="#book"
-          className="label-mono rounded-sm bg-gold px-4 py-2.5 text-primary-foreground transition-colors hover:bg-gold-bright"
-        >
-          Book Now
-        </a>
+        <div className="flex items-center gap-2">
+          <a
+            href="#book"
+            className="label-mono rounded-sm bg-gold px-4 py-2.5 text-primary-foreground transition-colors hover:bg-gold-bright"
+          >
+            Book Now
+          </a>
+          <button
+            type="button"
+            aria-label={open ? "Close menu" : "Open menu"}
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+            className="rounded-sm border border-border p-2 text-foreground md:hidden"
+          >
+            {open ? <Menu className="hidden h-5 w-5" /> : null}
+            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
+        </div>
       </div>
+
+      {open && (
+        <nav className="border-t border-border bg-surface-grey md:hidden">
+          <div className="mx-auto flex max-w-6xl flex-col px-4 py-2 sm:px-6">
+            {nav.map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                onClick={() => setOpen(false)}
+                className="label-mono border-b border-border/40 py-3 text-foreground last:border-b-0"
+              >
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </nav>
+      )}
+
 
       <a
         href={WHATSAPP_CHANNEL}
